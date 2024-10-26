@@ -34,25 +34,6 @@
     "platforms": ["ios", "android", "chrome", "firefox", "macos"]
   },
   {
-    "app_name": "bitgetTonWallet",
-    "name": "Bitget Wallet",
-    "image": "https://raw.githubusercontent.com/bitkeepwallet/download/main/logo/png/bitget_wallet_logo_0_gas_fee.png",
-    "about_url": "https://web3.bitget.com",
-    "deepLink": "bitkeep://",
-    "bridge": [
-      {
-        "type": "js",
-        "key": "bitgetTonWallet"
-      },
-      {
-        "type": "sse",
-        "url": "https://ton-connect-bridge.bgwapi.io/bridge"
-      }
-    ],
-    "platforms": ["ios", "android", "chrome"],
-    "universal_url": "https://bkcode.vip/ton-connect"
-  },
-  {
     "app_name": "mytonwallet",
     "name": "MyTonWallet",
     "image": "https://static.mytonwallet.io/icon-256.png",
@@ -77,6 +58,25 @@
       "android",
       "firefox"
     ]
+  },
+  {
+    "app_name": "bitgetTonWallet",
+    "name": "Bitget Wallet",
+    "image": "https://raw.githubusercontent.com/bitkeepwallet/download/main/logo/png/bitget_wallet_logo_0_gas_fee.png",
+    "about_url": "https://web3.bitget.com",
+    "deepLink": "bitkeep://",
+    "bridge": [
+      {
+        "type": "js",
+        "key": "bitgetTonWallet"
+      },
+      {
+        "type": "sse",
+        "url": "https://ton-connect-bridge.bgwapi.io/bridge"
+      }
+    ],
+    "platforms": ["ios", "android", "chrome"],
+    "universal_url": "https://bkcode.vip/ton-connect"
   },
   {
     "app_name": "binanceWeb3TonWallet",
